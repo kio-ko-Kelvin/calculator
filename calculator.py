@@ -1,9 +1,9 @@
-import customtkinter as CTk
+import customtkinter as ctk
 
-root = CTk.CTk()
-root.geometry("750x500")
-root.title("Myclock")
-root.resizable(False, False)
+"""App configuration"""
+ctk.set_appearance_mode("dark")
 
+app = ctk.CTk()
 
-root.mainloop()
+app.title("Calculator")
+app.mainloop()
